@@ -90,7 +90,7 @@ jobs:
       shell: bash
       run: |
         cd build && ninja
-    - name: Download a Build Artifact
-      uses: actions/download-artifact@v4.3.0
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v4.6.2
       with:
         name: aseprite
